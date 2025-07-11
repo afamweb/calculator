@@ -41,13 +41,7 @@ for (let number = 3; number <= 19; number++){
   document.getElementsByTagName("input")[number].addEventListener("click", function() {
     document.getElementById("screen").value +=  document.getElementsByTagName("input")[number].value
   })
-}
-// the code below is for the AC btn
-document.getElementsByTagName("input")[1].addEventListener("click", function() {
-  document.getElementById("screen").value = ""
-})
-
-  
+}  
 // the code below is for the del btn
 document.getElementsByTagName("input")[2].addEventListener("click", function() {
   document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1);
